@@ -56,3 +56,12 @@ export class GithubController {
     })
   }
 }
+
+@ApiTags('Healt')
+@Controller('')
+export class Healt {
+  @Get('')
+  healt(){
+    return 'Im alive!!!'
+  }
+}
