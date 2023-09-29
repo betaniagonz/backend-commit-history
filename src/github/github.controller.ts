@@ -62,6 +62,6 @@ export class GithubController {
 export class Healt {
   @Get('')
   healt(){
-    return 'Im alive!!!'
+    return 'Im alive, but at what cost!!!'
   }
 }
