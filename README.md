@@ -25,49 +25,45 @@
 ## Description
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+This project aims to serve the necessary endpoints by integrating the GitHub Api to show the commits of the repositories related to this project, both frontend and backend.
 
-## Installation
+## 1. Installation
 
 ```bash
-$ yarn install
+$ npm install
 ```
 
-## Running the app
+## 2. Running the app
 
 ```bash
 # development
-$ yarn run start
+$ npm run start
 
 # watch mode
-$ yarn run start:dev
+$ npm run start:dev
 
 # production mode
-$ yarn run start:prod
+$ npm run build
 ```
 
-## Test
-
+## 3. Check the api healt
 ```bash
-# unit tests
-$ yarn run test
+Go to the browser to http://localhost:3000
+You should see a message like this: 
+```
+![image](https://github.com/betaniagonz/backend-commit-history/assets/5827277/f3a4c2f9-8954-4369-adaa-11e46dc51d29)
 
-# e2e tests
-$ yarn run test:e2e
 
-# test coverage
-$ yarn run test:cov
+## 4. Check the api documentation
+```bash
+Go to the browser to http://localhost:3000/doc
+You should see a screen like this:
+```
+![image](https://github.com/betaniagonz/backend-commit-history/assets/5827277/ffaf7bbe-d668-42d0-ae79-5d2a3f153f46)
+
+## 5. See how it work!
+```bash
+Now you can run the frontend!
 ```
 
-## Support
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).
